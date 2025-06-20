@@ -2,6 +2,9 @@
 
 A comprehensive PHP & MySQL web application for managing student records with a modern Bootstrap interface.
 
+![Screenshot (119)](https://github.com/user-attachments/assets/8b8004e9-9ecb-42ec-910f-9ff26d0ac6c3)
+
+
 ## 🚀 Features
 
 - **Student Management**
