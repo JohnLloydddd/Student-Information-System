@@ -1,0 +1,114 @@
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f7f7f7;
+}
+
+h2 {
+  color: #343a40;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+form {
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 8px;
+  margin: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* Navbar Styles */
+.navbar { 
+  background-color: #484848; 
+}
+.navbar .navbar-nav .nav-link { 
+  color: #000000; 
+}
+.navbar .navbar-nav .nav-link:hover { 
+  color: #fbc531; 
+}
+.navbar .navbar-nav .active > .nav-link { 
+  color: #fbc531; 
+}
+.navbar .navbar-brand { 
+  color: #000000; 
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(251 251 251 / 50%);
+}
+
+/* Card Hover Effects */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Ensure proper spacing with fixed navbar */
+body {
+  padding-top: 60px;
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-group .btn {
+    padding: .25rem .5rem;
+    margin: 0 2px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* Responsive Table */
+.table-responsive {
+    border-radius: 0.25rem;
+}
